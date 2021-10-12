@@ -46,7 +46,7 @@ do
 	local responses = {
 		['https://bloxburg.sexy/version.php'] = BLOXBURG_VERSION;
 		['https://sor.cool/whitelist/bemeingtimesex.lua'] = CONSTANT_UUID;
-		['https://bloxburg.sexy/getinvite.php'] = '';
+		['https://bloxburg.sexy/getinvite.php'] = 'https://bloxburg.sexy/discord/joinDiscord';
 		['https://bloxburg.sexy/neighborhoods/getCode.php'] = '';
 	};
 	
@@ -4319,6 +4319,7 @@ if eq(time3,tostring(Base64.Decode(res1.data)),true) then
 		Vehicle = Window:Tab("Vehicle");
 		PrivateServerFarm = Window:Tab("Code Farm");
 		StatViewer = Window:Tab("Stat Viewer");
+		ServerInvite = Window:Tab("Discord Server");
 	}
 
 	local Sections = {
